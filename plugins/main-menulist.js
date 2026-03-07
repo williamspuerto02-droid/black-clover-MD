@@ -32,11 +32,11 @@ Bïęnvęnïdø ąl męñú ęmbrųjądø dę Hålłøwęęn:
 
 Şęlęcçïøną üñą òpciøn:`   
           },  
-          footer: { text: '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎ | ⚔️🥷 Ėdïçïón Glïtch Hålløwęęn' },  
+          footer: { text: '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 | 🐶 Ėdïçïón Glïtch Hålløwęęn' },  
           header: {  
             type: 'IMAGE',  
             imageUrl: 'https://i.imgur.com/3fJ1P1b.png',  
-            title: ' Męñú Bląçk Cløvęr 🥷🏻'  
+            title: ' Męñú Bląçk Cløvęr 🐶'  
           },  
           nativeFlowMessage: {  
             buttons: [  
