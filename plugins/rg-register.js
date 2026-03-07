@@ -99,7 +99,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     profilePic = await conn.profilePictureUrl(m.sender, 'image')
   } catch {
-    profilePic = 'https://qu.ax/AfutJ.jpg'
+    profilePic = 'https://files.catbox.moe/dapzy2.jpg'
   }
 
   const registroImg = await ensureImage('perfil.jpg', profilePic)
