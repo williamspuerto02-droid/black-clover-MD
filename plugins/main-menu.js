@@ -47,8 +47,8 @@ const loadMenuMedia = jid => {
 const fetchBuffer = async url =>
   Buffer.from(await (await fetch(url)).arrayBuffer())
 
-const defaultThumb = await fetchBuffer('https://files.catbox.moe/aoxdb6.jpg')
-const defaultVideo = await fetchBuffer('https://files.catbox.moe/jkokln.mp4')
+const defaultThumb = await fetchBuffer('https://files.catbox.moe/dapzy2.jpg')
+const defaultVideo = await fetchBuffer('https://files.catbox.moe/pr8jhc.mp4')
 
 let handler = async (m, { conn, usedPrefix }) => {
   await conn.sendMessage(m.chat, { react: { text: '🐶', key: m.key } })
@@ -118,8 +118,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     ],
     contextInfo: {
       externalAdReply: {
-        title: menuMedia.menuTitle || '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 | 𝕳𝖆𝖐 v777 🥷🏻',
-        body: 'ִ┊࣪ ˖𝐃𝐞𝐯 • 𝐓𝐡𝐞 𝐂𝐚𝐫𝐥𝐨𝐬 ♱',
+        title: menuMedia.menuTitle || '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶',
+        body: 'ִ┊࣪ ˖𝐃𝐞𝐯 • 𝐓𝐡𝐞 𝐒𝐢𝐟𝐮 𝐁𝐨𝐭',
         thumbnail: uniqueThumb,
         sourceUrl: 'https://github.com/thecarlos19/black-clover-MD',
         mediaType: 1,
