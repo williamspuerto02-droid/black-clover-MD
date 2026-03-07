@@ -96,7 +96,7 @@ const handler = async (m, { conn, args }) => {
   }
 
   const thumb = await resizeImage(await (await fetch(thumbnail)).buffer())
-  const res3 = await fetch("https://qu.ax/xCgVW.jpg")
+  const res3 = await fetch("https://files.catbox.moe/jiiv8a.jpeg")
   const thumb3 = Buffer.from(await res3.arrayBuffer())
 
   const fkontak = {
