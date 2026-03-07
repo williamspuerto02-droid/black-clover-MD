@@ -56,8 +56,8 @@ let handler = async (m, { conn, text }) => {
   if (imgFiles.length > 0) {
     contextInfo = {
       externalAdReply: {
-        title: '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 | nota 📝',
-        body: 'Dev • The Carlos 👑',
+        title: '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭| nota 📝',
+        body: 'Dev • 𝐒𝐢𝐟𝐮-𝐰 👑',
         mediaType: 2,
         thumbnail: fs.readFileSync(path.join(imgFolder, imgFiles[0]))
       }
