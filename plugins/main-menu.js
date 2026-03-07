@@ -14,7 +14,7 @@ const tags = {
 
 const defaultMenu = {
   before: `
-—͟͟͞͞   *REGISTRO CLOVER* »
+—͟͟͞͞   *REGISTRO* »
 > 🪐 𝙉𝙤𝙢𝙗𝙧𝙚   » %name
 > ⚙️ 𝙉𝙞𝙫𝙚𝙡     » %level
 > ⚡ 𝙀𝙭𝙥        » %exp / %maxexp
@@ -22,8 +22,8 @@ const defaultMenu = {
 > ⏳ 𝘼𝙘𝙩𝙞𝙫𝙤   » %muptime
 > 👥 𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 » %totalreg
 
-🤖 » 𝐌𝐄𝐍𝐔 𝐁𝐋𝐀𝐂𝐊 𝐂𝐋𝐎𝐕𝐄𝐑 «
-👑 » 𝗢𝗽𝗲𝗿𝗮𝗱𝗼𝗿:—͟͟͞͞ 𝐓𝐡𝐞 𝐂𝐚𝐫𝐥𝐨𝐬 𖣘 «
+🤖 » 𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 𝐌𝐄𝐍𝐔 «
+👑 » 𝗢𝗽𝗲𝗿𝗮𝗱𝗼𝗿:—͟͟͞͞ 𝐒𝐢𝐟𝐮-𝐤 «
 %readmore
 `.trimStart(),
   header: '\n⧼⋆꙳•〔 🛸 %category 〕⋆꙳•⧽',
@@ -51,7 +51,7 @@ const defaultThumb = await fetchBuffer('https://files.catbox.moe/aoxdb6.jpg')
 const defaultVideo = await fetchBuffer('https://files.catbox.moe/jkokln.mp4')
 
 let handler = async (m, { conn, usedPrefix }) => {
-  await conn.sendMessage(m.chat, { react: { text: '⚔️', key: m.key } })
+  await conn.sendMessage(m.chat, { react: { text: '🐶', key: m.key } })
 
   const botJid = conn.user.jid
   const menuMedia = loadMenuMedia(botJid)
