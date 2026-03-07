@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let totalreg = Object.keys(global.db.data.users).length
   let totalchats = Object.keys(global.db.data.chats).length
   let vs = global.vs || '7.7.7'
-  let pp = "https://files.catbox.moe/8lfoj3.jpg"
+  let pp = "https://files.catbox.moe/dapzy2.jpg"
 
   if (process.send) {
     process.send('uptime')
