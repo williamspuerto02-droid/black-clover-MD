@@ -13,16 +13,16 @@ import moment from 'moment-timezone';
 global.botNumber = ''; // Ejemplo: 525568138672
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 global.owner = [
-  ['5215544876071', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
-  ['5217971289909'],
-  ['5216641784469', 'BrayanOFC', true],
-  ['5217971282613', '', false], // Espacios opcionales
+  ['13463689362', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
+  ['13463689362'],
+  ['593988839188', 'BrayanOFC', true],
+  ['593988839188', '', false], // Espacios opcionales
   ['573244278232', 'Brayan uchiha 🐦‍⬛', true],
   ['', '', false]
 ];
-global.mods = ['5215544876071'];
-global.suittag = ['5215544876071'];
-global.prems = ['5215544876071'];
+global.mods = ['13463689362'];
+global.suittag = ['13463689362'];
+global.prems = ['13463689362'];
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 global.libreria = 'Baileys';
@@ -37,21 +37,21 @@ global.blackJadibts = true;
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 global.packsticker = `
-  𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ᚲ 𝐓𝐡𝐞 𝐂𝐚𝐫𝐥𝐨𝐬`;
+  𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 ᚲ ᵇʸ ᶜᵃʳˡᵒˢ`;
 
-global.packname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
+global.packname = '𝐓𝐡𝐞 𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶';
 
 global.author = `
 ♾━━━━━━━━━━━━━━━♾`;
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
-global.wm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.titulowm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.igfg = 'ᥫ𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.botname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘'
+global.wm = '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶';
+global.titulowm = '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭';
+global.igfg = 'ᥫ𝐓𝐇𝐄 𝐒𝐈𝐅𝐔 𝐁𝐎𝐓'
+global.botname = '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
-global.textbot = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹  : 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.textbot = '𝑺𝑰𝑭𝑼 𝑩𝑶𝑻  : 𝐓𝐇𝐄 𝑺𝑰𝑭𝑼'
 global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
-global.namechannel = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹 / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.namechannel = '𝐒𝐢𝐟𝐮 / 𝐰𝐚𝐨𝐬'
 // Moneda interna
 global.monedas = 'monedas';
 
