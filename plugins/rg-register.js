@@ -44,7 +44,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     const sigue = await verificaInstagram(igUser)
     if (!sigue) {
       user.followed = false
-      return conn.sendMessage(m.chat, { text: `⚠️ Has dejado de seguir a mi creador en Instagram.\nPor favor síguelo nuevamente:\n👉 https://www.instagram.com/_carlitos.zx\n\nLuego escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+      return conn.sendMessage(m.chat, { text: `⚠️ Has dejado de seguir a mi creador en Instagram.\nPor favor síguelo nuevamente:\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nLuego escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
     }
   }
 
@@ -53,13 +53,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       const igUser = (m.pushName || '').replace(/\s+/g, '').toLowerCase()
       const sigue = await verificaInstagram(igUser)
       if (!sigue) {
-        return conn.sendMessage(m.chat, { text: `❌ No detecto que sigas a mi creador\n\n👉 https://www.instagram.com/_carlitos.zx\n\nCuando lo sigas escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+        return conn.sendMessage(m.chat, { text: `❌ No detecto que sigas a mi creador\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nCuando lo sigas escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
       }
       user.followed = true
       return conn.sendMessage(m.chat, { text: `✅ ¡Perfecto! Verificado que sigues a TheCarlosZX.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
     }
 
-    return conn.sendMessage(m.chat, { text: `⚠️ Para poder usar el bot primero debes seguir a mi creador en Instagram:\n\n👉 https://www.instagram.com/_carlitos.zx\n\nDespués de seguirlo, escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+    return conn.sendMessage(m.chat, { text: `⚠️ Para poder usar el bot primero debes seguir a mi creador en Instagram:\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nDespués de seguirlo, escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
   }
 
   if (user.registered === true) {
@@ -107,11 +107,11 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
   let responseMessage = `> *🌿!**R E G I S T R O  M Á G I C O*\n\n`
   responseMessage += `> *!* ✧──『 ⚜️ 𝗗𝗔𝗧𝗢𝗦 ⚜️ 』\n`
-  responseMessage += `> *!* 🧙‍♂️ *Nombre:* ${name}\n`
+  responseMessage += `> *!* 🪪 *Nombre:* ${name}\n`
   responseMessage += `> *!* 🎂 *Edad:* ${age} años\n`
-  responseMessage += `> *!* 🌍 *Reino:* ${country}\n`
+  responseMessage += `> *!* 🌍 *Pais:* ${country}\n`
   responseMessage += `> *!* 🌌 *Afinidad:* ${afinidad}\n`
-  responseMessage += `> *!* 💠 *Nivel Mágico:* ${nivelMagico}\n`
+  responseMessage += `> *!* 💠 *Nivel:* ${nivelMagico}\n`
   responseMessage += `> *!* 📖 *Grimorio:* ${grimorioColor}\n`
   responseMessage += `> *!* ✧────────────────✧\n\n`
   responseMessage += `> *!* 🕯️ 𝑬𝒍 𝒗í𝒏𝒄𝒖𝒍𝒐 𝒎á𝒈𝒊𝒄𝒐 𝒔𝒆 𝒉⟮ 𝒆𝒔𝒕𝒂𝒃𝒍𝒆𝒄𝒊𝒅𝒐.\n`
