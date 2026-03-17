@@ -30,7 +30,7 @@ global.baileys = 'V 6.7.9';
 global.languaje = 'Español';
 global.vs = '2.2.0';
 global.vsJB = '5.0';
-global.nameqr = 'black clover- Bot';
+global.nameqr = 'Sifu-Bot';
 global.sessions = 'blackSession';
 global.jadi = 'blackJadiBot';
 global.blackJadibts = true;
@@ -50,7 +50,7 @@ global.igfg = 'ᥫ𝐓𝐇𝐄 𝐒𝐈𝐅𝐔 𝐁𝐎𝐓'
 global.botname = '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
 global.textbot = '𝑺𝑰𝑭𝑼 𝑩𝑶𝑻  : 𝐓𝐇𝐄 𝑺𝑰𝑭𝑼'
-global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
+global.gt = '͟͞Sifu ☘͟͞';
 global.namechannel = '𝐒𝐢𝐟𝐮 / 𝐰𝐚𝐨𝐬'
 // Moneda interna
 global.monedas = 'monedas';
@@ -59,7 +59,7 @@ global.monedas = 'monedas';
 global.gp1 = 'https://chat.whatsapp.com/IbADO35sBSC4G1FBTGbHIE?mode=ac_t';
 global.gp2 = 'https://chat.whatsapp.com/FiBcPMYEO7mG4m16gBbwpP?mode=ac_t';
 global.comunidad1 = 'https://chat.whatsapp.com/FgQ4q11AjaO8ddyc1LvK4r?mode=ac_t';
-global.channel = 'https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04';
+global.channel = 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v';
 global.cn = global.channel;
 global.yt = 'https://www.youtube.com/@ElCarlos.87';
 global.md = 'https://github.com/thecarlos19/black-clover-MD';
