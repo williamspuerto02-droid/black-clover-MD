@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
   const channel = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w'
 
   const dev = '👾 Desarrollador: @thecarlos19'
-  const catalogo = 'https://qu.ax/TJRoN.jpg'
+  const catalogo = 'https://files.catbox.moe/dapzy2.jpg'
   const emojis = '📡'
 
   let grupos = `
