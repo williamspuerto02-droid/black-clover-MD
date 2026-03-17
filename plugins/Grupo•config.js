@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   try {
-    const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
+    const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => 'https://files.catbox.moe/9od42r.jpg')
 
     const opciones = {
       open: 'not_announcement',
