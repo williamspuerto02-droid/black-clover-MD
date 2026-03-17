@@ -12,7 +12,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     throw '❗ No se encontraron resultados para tu búsqueda. Intenta con otro título.';
   }
 
-  const body = `\`\`\`El mejor bot de WhatsApp ⚔️
+  const body = `\`\`\`El mejor bot de WhatsApp 🐶
   
 Elige una de las opciones para descargar:
 🎧 *Audio* o 📽️ *Video*
@@ -23,7 +23,7 @@ Elige una de las opciones para descargar:
     {
       image: { url: videoInfo.thumbnail },
       caption: body,
-      footer: `𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎| ⚔️🥷`,
+      footer: `𝐒𝐈𝐟𝐮 𝐁𝐨𝐭| 🐶`,
       buttons: [
         { buttonId: `.ytmp3 ${videoInfo.url}`, buttonText: { displayText: '🎧 Audio' } },
         { buttonId: `.ytmp4 ${videoInfo.url}`, buttonText: { displayText: '📽️ Video' } },
@@ -35,8 +35,8 @@ Elige una de las opciones para descargar:
       contextInfo: {
         externalAdReply: {
           showAdAttribution: false,
-          title: '📡 Descargas clover',
-          body: '✡︎ Dev • TheCarlos',
+          title: '📡 Descargas sifu',
+          body: '✡︎ Dev • SifuBot',
           mediaType: 2,
           sourceUrl: global.redes || '',
           thumbnail: global.icons || null
