@@ -114,12 +114,12 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   responseMessage += `> *!* 💠 *Nivel:* ${nivelMagico}\n`
   responseMessage += `> *!* 📖 *Grimorio:* ${grimorioColor}\n`
   responseMessage += `> *!* ✧────────────────✧\n\n`
-  responseMessage += `> *!* 🕯️ 𝑬𝒍 𝒗í𝒏𝒄𝒖𝒍𝒐 𝒎á𝒈𝒊𝒄𝒐 𝒔𝒆 𝒉⟮ 𝒆𝒔𝒕𝒂𝒃𝒍𝒆𝒄𝒊𝒅𝒐.\n`
-  responseMessage += `> *🌿!* ⚔️ 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐, *${name.toUpperCase()}* 𝒅𝒆𝒍 𝑹𝒆𝒊𝒏𝒐 ${country}.\n`
-  responseMessage += `> *!* ☘️ ¡𝑬𝒍 𝒅𝒆𝒔𝒕𝒊𝒏𝒐 𝒕𝒆 𝒂𝒈𝒖𝒂𝒓𝒅𝒂!`
+  responseMessage += `> *!* ✅ 𝐒𝐞 𝐢𝐧𝐢𝐜𝐢𝐨 𝐬𝐞𝐬𝐢𝐨𝐧 𝐜𝐨𝐧 𝐞𝐱𝐢𝐭𝐨.\n`
+  responseMessage += `> *🐶!*  𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐, *${name.toUpperCase()}* 𝐏𝐚𝐢𝐬 ${country}.\n`
+  responseMessage += `> *!* 🐶 𝐃𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐥𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞 𝐒𝐢𝐟𝐮 𝐛𝐨𝐭💕`
 
   const newsletterId = '120363419782804545@newsletter'
-  const newsletterName = 'The Legends'
+  const newsletterName = 'Sifu Bot'
 
   const contextInfo = {
     isForwarded: true,
@@ -131,8 +131,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     },
     externalAdReply: {
       showAdAttribution: false,
-      title: `📜 registro clover`,
-      body: `✡︎ Black-clover-MD • The Carlos`,
+      title: `📄 registro`,
+      body: `✡︎ 𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 • ᵇʸ ᶜᵃʳˡᵒˢ`,
       mediaType: 2,
       sourceUrl: global.redes || '',
       thumbnail: global.icons || thumbnailBuffer
