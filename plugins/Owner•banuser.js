@@ -21,8 +21,8 @@ let handler = async (m, { conn, text }) => {
                 mentionedJid: [who],
                 externalAdReply: {
                     showAdAttribution: false,
-                    title: `𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎`,
-                    body: `✡︎ Dev • The Carlos`,
+                    title: `𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 🐶`,
+                    body: `✡︎ Dev • sifu`,
                     mediaType: 2,
                     sourceUrl: global.redes || '',
                     thumbnail: global.icons || null
