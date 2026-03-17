@@ -23,7 +23,7 @@ Elige una de las opciones para descargar:
     {
       image: { url: videoInfo.thumbnail },
       caption: body,
-      footer: `𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎| ⚔️🥷`,
+      footer: `𝐒𝐢𝐟𝐮 𝐛𝐨𝐭 | 🐶`,
       buttons: [
         { buttonId: `.ytmp3 ${videoInfo.url}`, buttonText: { displayText: '🎧 Audio' } },
         { buttonId: `.ytmp4 ${videoInfo.url}`, buttonText: { displayText: '📽️ Video' } },
@@ -35,8 +35,8 @@ Elige una de las opciones para descargar:
       contextInfo: {
         externalAdReply: {
           showAdAttribution: false,
-          title: '📡 Descargas clover',
-          body: '✡︎ Dev • TheCarlos',
+          title: '📡 Descargas Sifu',
+          body: '✡︎ Dev • sifu bot',
           mediaType: 2,
           sourceUrl: global.redes || '',
           thumbnail: global.icons || null
