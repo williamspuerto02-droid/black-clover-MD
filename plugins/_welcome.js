@@ -47,7 +47,7 @@ export async function before(m, { conn }) {
           contextInfo: {
             mentionedJid: mentionedJids,
             externalAdReply: {
-              title: "─ W E L C O M E ─🥷🏻",
+              title: "─ W E L C O M E ─🐶",
               body: `${userName} ha llegado al grupo!`,
               thumbnail: thumbnailBuffer,
               mediaType: 1,
