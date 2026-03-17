@@ -35,8 +35,8 @@ Elige una de las opciones para descargar:
       contextInfo: {
         externalAdReply: {
           showAdAttribution: false,
-          title: '📡 Descargas clover',
-          body: '✡︎ Dev • TheCarlos',
+          title: '📡 Descargas Sifu',
+          body: '✡︎ Dev • TheSifuBot',
           mediaType: 2,
           sourceUrl: global.redes || '',
           thumbnail: global.icons || null
