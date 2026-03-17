@@ -74,8 +74,8 @@ handler.all = async function (m) {
   global.emojis = pickRandom([global.emoji, global.emoji2, global.emoji3, global.emoji4])
 
   //Enlaces
-  var canal = 'https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04'  
-  let canal2 = 'https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04'
+  var canal = 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v'  
+  let canal2 = 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v'
   var git = 'https://github.com/thecarlos19' 
   var youtube = '' 
   var github = 'https://github.com/thecarlos19/black-clover-MD' 
