@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     gifPlayback: true,
     jpegThumbnail: uniqueThumb,
     caption: text,
-    footer: '🧠 BLACK CLOVER SYSTEM ☘️',
+    footer: '⚙️ SUFU SYSTEM 🐶',
     buttons: [
       { buttonId: `${usedPrefix}menurpg`, buttonText: { displayText: '🏛️ M E N U R P G' }, type: 1 },
       { buttonId: `${usedPrefix}code`, buttonText: { displayText: '🕹 ＳＥＲＢＯＴ' }, type: 1 }
