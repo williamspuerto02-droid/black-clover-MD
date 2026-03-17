@@ -42,14 +42,14 @@ handler.all = async function (m) {
   global.creador = 'Wa.me/525544876071'
   global.ofcbot = `${conn?.user?.jid?.split('@')[0] || ''}`
   global.asistencia = 'Wa.me/525544876071'
-  global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-  global.namegrupo = ' 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎'
-  global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-  global.listo = '⚔️ *Aquí tienes perra*'
+  global.namechannel = '⏤͟͞𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 '
+  global.namegrupo = ' 𝐒𝐈𝐟𝐮 𝐛𝐨𝐭 🐶'
+  global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐒𝐈𝐅𝐔 '
+  global.listo = ' *Aquí tienes perra*'
 
   //Ids channel
   global.canalIdM = ["120363419782804545@newsletter", "120363419782804545@newsletter"]
-  global.canalNombreM = ["⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ", "㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 "]
+  global.canalNombreM = ["⏤͟͞𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 ", "㋡ 𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 "]
   global.idchannel = canalIdM[0]
   global.channelRD = await getRandomChannel()
 
