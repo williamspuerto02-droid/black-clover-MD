@@ -56,7 +56,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         return conn.sendMessage(m.chat, { text: `❌ No detecto que sigas a mi creador\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nCuando lo sigas escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
       }
       user.followed = true
-      return conn.sendMessage(m.chat, { text: `✅ ¡Perfecto! Verificado que sigues a TheCarlosZX.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
+      return conn.sendMessage(m.chat, { text: `✅ ¡Perfecto! Verificado que sigues a Sifu.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
     }
 
     return conn.sendMessage(m.chat, { text: `⚠️ Para poder usar el bot primero debes seguir a mi creador en Instagram:\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nDespués de seguirlo, escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
@@ -68,7 +68,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
   const regex = /^([a-zA-ZÀ-ÿñÑ\s]+)\.(\d{1,2})$/i
   if (!regex.test(text)) {
-    return conn.sendMessage(m.chat, { text: `⚠️ Formato incorrecto. Usa:\n*${usedPrefix + command} Nombre.Edad*\n\nEjemplo:\n*${usedPrefix + command} Asta.18*` }, { quoted: m })
+    return conn.sendMessage(m.chat, { text: `⚠️ Formato incorrecto. Usa:\n*${usedPrefix + command} Nombre.Edad*\n\nEjemplo:\n*${usedPrefix + command} Sifu.18*` }, { quoted: m })
   }
 
   let match = text.match(regex)
@@ -103,7 +103,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 
   const registroImg = await ensureImage('perfil.jpg', profilePic)
-  const thumbnailBuffer = fs.readFileSync(await ensureImage('registro_completo.jpg', 'https://qu.ax/AfutJ.jpg'))
+  const thumbnailBuffer = fs.readFileSync(await ensureImage('registro_completo.jpg', 'https://files.catbox.moe/dapzy2.jpg'))
 
   let responseMessage = `> *🐶!**R E G I S T R O*\n\n`
   responseMessage += `> *!* ✧──『 ⚜️ 𝗗𝗔𝗧𝗢𝗦 ⚜️ 』\n`
