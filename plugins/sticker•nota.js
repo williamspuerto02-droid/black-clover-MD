@@ -43,7 +43,7 @@ let handler = async (m, { conn, text }) => {
   );
 
   let buffer = await image.getBufferAsync(Jimp.MIME_PNG);
-  let stiker = await sticker(buffer, false, '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗', 'The Carlos 👑');
+  let stiker = await sticker(buffer, false, '𝐒𝐢𝐟𝐮', 'The Sifu 🐶');
 
   if (!stiker) return m.reply("❌ No se pudo generar el sticker.");
 
