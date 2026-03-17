@@ -43,7 +43,7 @@ export async function before(m, { conn }) {
     try {
       pp = await conn.profilePictureUrl(m.chat, 'image')
     } catch {
-      pp = global.icons || 'https://qu.ax/QGAVS.jpg'
+      pp = global.icons || 'https://files.catbox.moe/dapzy2.jpg'
     }
 
     const esNombreValido = txt =>
@@ -114,7 +114,7 @@ export async function before(m, { conn }) {
       externalAdReply: {
         showAdAttribution: false,
         title: '⚙️ Configuración del Grupo',
-        body: '✡︎ Black-clover-MD • The Carlos',
+        body: '✡︎ Sifu Bot-MD • sifu-k',
         mediaType: 2,
         sourceUrl: global.redes || '',
         thumbnail: global.icons || null
