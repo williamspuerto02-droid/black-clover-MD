@@ -12,7 +12,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     throw '❗ No se encontraron resultados para tu búsqueda. Intenta con otro título.';
   }
 
-  const body = `\`\`\`El mejor bot de WhatsApp ⚔️
+  const body = `\`\`\`El mejor bot de WhatsApp 🐶
   
 Elige una de las opciones para descargar:
 🎧 *Audio* o 📽️ *Video*
