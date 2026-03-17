@@ -9,7 +9,7 @@ const handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, i
     participant: '0@s.whatsapp.net'
   }
 
-  const miniopcion = `⚔️ *OPCIONES PARA GRUPOS*
+  const miniopcion = `🐶 *OPCIONES PARA GRUPOS*
 
 ${usedPrefix + command} welcome
 ${usedPrefix + command} autoresponder
@@ -28,7 +28,7 @@ ${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
 ${usedPrefix + command} antibot
 
-🥷 *OPCIONES PARA MI PROPIETARIO*
+🐶 *OPCIONES PARA MI PROPIETARIO*
 
 ${usedPrefix + command} antisubots
 ${usedPrefix + command} public
@@ -229,7 +229,7 @@ ${usedPrefix + command} antiprivado`
               externalAdReply: {
                 showAdAttribution: false,
                 title: `⚔️ Centro de Configuración`,
-                body: `✡︎ Powered By • The Carlos`,
+                body: `✡︎ Powered By • Sifu-k`,
                 mediaType: 2,
                 sourceUrl: global.redes || '',
                 thumbnail: global.icons || null
@@ -250,7 +250,7 @@ ${usedPrefix + command} antiprivado`
         externalAdReply: {
           showAdAttribution: false,
           title: `⚙️ Configuración`,
-          body: `✡︎ Black-clover-MD • The Carlos`,
+          body: `✡︎ Sifu Bot-MD • Sifu-k`,
           mediaType: 2,
           sourceUrl: global.redes || '',
           thumbnail: global.icons || null
