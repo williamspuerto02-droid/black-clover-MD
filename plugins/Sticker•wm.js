@@ -27,8 +27,8 @@ let handler = async (m, { conn, text }) => {
                         isForwarded: false,
                         externalAdReply: {
                             showAdAttribution: false,
-                            title: `𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎`,
-                            body: `✡︎ Sticker By • The Carlos`,
+                            title: `𝐒𝐢𝐟𝐮 𝐁𝐨𝐭`,
+                            body: `✡︎ Sticker By • Sifu`,
                             mediaType: 2,
                             sourceUrl: global.redes || '',
                             thumbnail: global.icons || null
