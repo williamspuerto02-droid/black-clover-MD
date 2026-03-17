@@ -39,7 +39,7 @@ handler.all = async function (m) {
     }
   }
 
-  global.creador = 'Wa.me/525544876071'
+  global.creador = 'Wa.me/13463689362'
   global.ofcbot = `${conn?.user?.jid?.split('@')[0] || ''}`
   global.asistencia = 'Wa.me/525544876071'
   global.namechannel = '⏤͟͞𝐒𝐈𝐅𝐔 𝐁𝐎𝐓 '
@@ -67,9 +67,9 @@ handler.all = async function (m) {
   global.error = '✖️'
 
   //Emojis determinado de black clover 
-  global.emoji = '🥷'
-  global.emoji2 = '👻'
-  global.emoji3 = '⚔️'
+  global.emoji = '🐶'
+  global.emoji2 = '🐺'
+  global.emoji3 = '💕'
   global.emoji4 = '🍭'
   global.emojis = pickRandom([global.emoji, global.emoji2, global.emoji3, global.emoji4])
 
