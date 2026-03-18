@@ -22,8 +22,8 @@ let handler = async (m, { conn, args }) => {
         stiker = await sticker(
           media,
           false,
-          global.packsticker || 'Black Clover Pack',
-          global.author || 'By The Carlos'
+          global.packsticker || 'Sifu Bot Pack',
+          global.author || 'ᵇʸ ᶜᵃʳˡᵒˢ'
         )
         if (Buffer.isBuffer(stiker)) fs.writeFileSync(tmpPath, stiker)
       } catch (e) {
@@ -71,8 +71,8 @@ let handler = async (m, { conn, args }) => {
         if (thumb) {
           contextInfo = {
             externalAdReply: {
-              title: 'Black-clover-MD 🥷🏻',
-              body: 'Dev • The Carlos ✨',
+              title: '𝐒𝐢𝐟𝐮 𝐁𝐨𝐭-𝐌𝐃 🐶',
+              body: 'Dev • sɪғᴜ ✨',
               mediaType: 2,
               thumbnail: thumb
             }
