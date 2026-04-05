@@ -86,7 +86,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/thecarlos19/black-clover-MD 
+git clone https://github.com/williamspuerto02-droid/black-clover-MD 
 
 ```
 ```bash
