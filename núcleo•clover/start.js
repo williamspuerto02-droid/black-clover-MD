@@ -510,7 +510,7 @@ setInterval(async () => {
     if (stopped === 'close' || !conn || !conn?.user) return
     const _uptime = process.uptime() * 1000
     const uptime = clockString(_uptime)
-    const bio = `🦠 Black-clover-MD |「🕒」Aᥴ𝗍і᥎o: ${uptime}`
+    const bio = `🐶 Sifu Bot-MD |「🕒」Aᥴ𝗍і᥎o: ${uptime}`
     await conn?.updateProfileStatus(bio).catch(_ => _)
     if (global.rutaJadiBot) {
         const bots = readdirSync(global.rutaJadiBot)
