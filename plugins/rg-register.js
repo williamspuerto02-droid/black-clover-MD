@@ -44,7 +44,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     const sigue = await verificaInstagram(igUser)
     if (!sigue) {
       user.followed = false
-      return conn.sendMessage(m.chat, { text: `⚠️ Has dejado de seguir a mi creador en Instagram.\nPor favor síguelo nuevamente:\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nLuego escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+      return conn.sendMessage(m.chat, { text: `🐶Ahora escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
     }
   }
 
@@ -53,13 +53,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       const igUser = (m.pushName || '').replace(/\s+/g, '').toLowerCase()
       const sigue = await verificaInstagram(igUser)
       if (!sigue) {
-        return conn.sendMessage(m.chat, { text: `❌ No detecto que sigas a mi creador\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nCuando lo sigas escribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+        return conn.sendMessage(m.chat, { text: `🐶Ahora\n\nescribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
       }
       user.followed = true
       return conn.sendMessage(m.chat, { text: `✅ ¡Perfecto! Verificado que sigues a Sifu.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
     }
 
-    return conn.sendMessage(m.chat, { text: `⚠️ Para poder usar el bot primero debes seguir a mi creador en Instagram:\n\n👉 https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\nDespués de seguirlo, escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+    return conn.sendMessage(m.chat, { text: `⚠️ Perfecto ahora\n\nescribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
   }
 
   if (user.registered === true) {
