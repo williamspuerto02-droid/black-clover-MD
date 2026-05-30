@@ -11,7 +11,7 @@ import ws from 'ws';
 const { proto } = (await import('@whiskeysockets/baileys')).default;
 const isNumber = x => typeof x === 'number' && !isNaN(x);
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(() => resolve(), ms));
-
+const imagen1 = 'https://files.catbox.moe/dapzy2.jpg'
 export async function handler(chatUpdate) {
   this.msgqueque ||= [];
   this.uptime ||= Date.now();
