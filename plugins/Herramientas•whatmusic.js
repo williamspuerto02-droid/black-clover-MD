@@ -5,8 +5,8 @@ import ffmpeg from 'fluent-ffmpeg'
 
 let acr = new acrcloud({
   host: 'identify-eu-west-1.acrcloud.com',
-  access_key: 'TU_ACCESS_KEY',
-  access_secret: 'TU_ACCESS_SECRET'
+  access_key: 'c33c767d683f78bd17d4bd4991955d81',
+  access_secret: 'bvgaIAEtADBTbLwiPGYlxupwqkNGIjT7J9Ag2vIu'
 })
 
 let handler = async (m) => {
