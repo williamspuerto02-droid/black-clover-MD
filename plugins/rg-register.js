@@ -56,10 +56,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         return conn.sendMessage(m.chat, { text: `🐶Ahora\n\nescribe:\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
       }
       user.followed = true
-      return conn.sendMessage(m.chat, { text: `https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\n✅ ¡Perfecto! Verificado que sigues a Sifu.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
+      return conn.sendMessage(m.chat, { text: `https://www.instagram.com/sifu_donz?igsh=MXlkc2UxM3ltcDZh\n\n✅ ¡Perfecto! Verificado que sigues a Sifu.\nAhora puedes usar *${usedPrefix + command} Nombre.Edad* para registrarte.` }, { quoted: m })
     }
 
-    return conn.sendMessage(m.chat, { text: `https://www.instagram.com/shigeo_ta?igsh=MXlkc2UxM3ltcDZh\n\n🐶Perfecto\n\nahora escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
+    return conn.sendMessage(m.chat, { text: `https://www.instagram.com/sifu_donz?igsh=MXlkc2UxM3ltcDZh\n\n🐶Perfecto\n\nahora escribe:\n\n*${usedPrefix + command} ${followKey}*` }, { quoted: m })
   }
 
   if (user.registered === true) {
